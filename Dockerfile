@@ -2,7 +2,7 @@ FROM java:8-alpine
 
 ARG MINECRAFT_VERSION=1.12-pre6
 ARG PAPER_BUILD=18
-ARG PAPER_URL=https://ci.destroystokyo.com/job/Paper-1.12-Pre-release/${PAPER_BUILD}/artifact/paperclip-${PAPER_BUILD}.jar
+ARG PAPER_URL=https://ci.destroystokyo.com/job/PaperSpigot/${PAPER_BUILD}/artifact/paperclip-${PAPER_BUILD}.jar
 ARG PAPER_SHA512=260822343df3c75aef2fa63eac85d298b52d5c21235cf9fa291802d50e28b9270f5a5292238325e5da66b6b66e6b983d057b4e8c0c852ff14cee25b336d64a1b
 
 WORKDIR /data
