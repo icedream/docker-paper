@@ -15,7 +15,7 @@ if [ ! -z "$2" ]; then
     sed -i "s,MINECRAFT_VERSION=.\+\?,MINECRAFT_VERSION=$2,g" Dockerfile*
   fi
 fi
-./update-sha512.sh
+./dev/update-sha512.sh
 git add Dockerfile
 
 sed -i 's,`b'"$PAPER_BUILD"'`,`b'"$NEW_PAPER_BUILD"'`,' README.md
