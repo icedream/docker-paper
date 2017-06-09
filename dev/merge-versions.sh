@@ -21,8 +21,10 @@ merge_version() {
   rm -rf "$dest_dir"
 }
 
+# Minecraft 1.12
+merge_version develop mc-1.12
+
 # Minecraft 1.11.2
-merge_version develop mc-1.11.2
 merge_version mc-1.11.2 mc-1.11
 
 # Minecraft 1.10.2
@@ -35,5 +37,5 @@ merge_version mc-1.9.4 mc-1.9
 merge_version mc-1.8.8 mc-1.8
 
 # Latest stable
-merge_version mc-1.11 stable
+merge_version mc-1.12 stable
 merge_version stable master
