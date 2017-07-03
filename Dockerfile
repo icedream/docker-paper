@@ -1,9 +1,9 @@
 FROM java:8-alpine
 
 ARG MINECRAFT_VERSION=1.12
-ARG PAPER_BUILD=1140
+ARG PAPER_BUILD=1141
 ARG PAPER_URL=https://ci.destroystokyo.com/job/PaperSpigot/${PAPER_BUILD}/artifact/paperclip-${PAPER_BUILD}.jar
-ARG PAPER_SHA512=c965dff85ceaeaaedd264f46a8405b5aed0dabb8fe63645accfe88c3faaa821f2e8d55cfbac83d05ba4dce6738ee246e4af11608de716223e5c16960ad631011
+ARG PAPER_SHA512=45084c97bf0e99ff36bdda0e0e01da2aa826f7f504add89fffceb11e1695c36ec9a607904a37ca7e93d189b9caecf5cbe0b45ee12c3df59eac9fc79c4674beca
 
 WORKDIR /data
 ADD "${PAPER_URL}" /srv/paper.jar
