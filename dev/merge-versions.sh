@@ -22,7 +22,8 @@ merge_version() {
 }
 
 # Minecraft 1.12
-merge_version develop mc-1.12
+merge_version develop mc-1.12.1
+merge_version mc-1.12.1 mc-1.12
 
 # Minecraft 1.11.2
 merge_version mc-1.11.2 mc-1.11
