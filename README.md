@@ -6,7 +6,7 @@ This image includes the Jenkins build of Paper, the "high performance Spigot for
 
 All available tags are always listed [in Docker Hub](https://hub.docker.com/r/icedream/paper/tags), the list below explains the maintained tags:
 
-- `b1176`, `mc-1.12.1`, `mc-1.12`: Latest server for Minecraft 1.12.1.
+- `b1177`, `mc-1.12.1`, `mc-1.12`: Latest server for Minecraft 1.12.1.
 - `b1104`, `mc-1.11.2`, `mc-1.11`: Latest server for Minecraft 1.11.x.
 - `b916.2`, `mc-1.10.2`, `mc-1.10`: Latest server for Minecraft 1.10.x.
 - `b773`, `mc-1.9.4`, `mc-1.9`: Latest server for Minecraft 1.9.x.
